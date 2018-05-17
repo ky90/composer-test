@@ -1,0 +1,21 @@
+{
+    "name": "ky90/composer-test",
+    "description": "This is just a demo for building composer packagist.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ky90",
+            "email": "kehyong1990@gmail.com"
+        }
+    ],
+	"require":{
+        "php": ">=5.0.0"
+    },
+	"autoload":{
+	 "psr-4":{
+	   "Car\\":"ford/src"
+	 }
+	},
+    "minimum-stability": "dev"
+}
