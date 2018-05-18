@@ -17,5 +17,5 @@
 	   "Car\\":"ford/src"
 	 }
 	},
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
